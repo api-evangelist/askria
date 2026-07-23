@@ -1,7 +1,25 @@
 aid: askria
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/askria.png
 name: Askria
-description: Askria is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Askria (askRIA) is an AI-powered due diligence and deal-management platform
+  that provides decision infrastructure for private capital. It builds digital twins
+  of investment funds and runs three AI agents: Discovery for thesis-matched company
+  sourcing and outreach, Due Diligence for auto-scoring deals against custom frameworks
+  while surfacing gaps and inconsistencies, and Portfolio for post-investment metric
+  tracking and performance monitoring. The platform generates Investor Readiness Scores
+  and streamlines the funding lifecycle for both investors and founders under a usage-based
+  pricing model. Backed by 500 Global.'
 url: https://raw.githubusercontent.com/api-evangelist/askria/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Venture Capital
+- Private Capital
+- Due Diligence
+- Deal Management
+- Artificial Intelligence
+- Investment
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/askria-domain-security.yml
 - type: Website
   url: https://askria.ai
+- type: Blog
+  url: https://askria.ai/blog
+- type: Pricing
+  url: https://askria.ai/pricing
+- type: SignUp
+  url: https://askria.ai/signup
+- type: Support
+  url: https://askria.ai/contact
+- type: TermsOfService
+  url: https://askria.ai/terms-of-use
+- type: PrivacyPolicy
+  url: https://askria.ai/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
