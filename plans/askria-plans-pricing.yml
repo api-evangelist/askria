@@ -1,0 +1,53 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://askria.ai/pricing
+sources:
+- https://askria.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: Enterprise deployment with custom LLM, on-premise options, and dedicated support.
+  managed_tier: Scout
+published: false
+note: No numeric price is published on the pricing page; All tiers show 'Custom / Priced to your fund'
+  with no numeric prices; quotas only. On-premise deployment offered in Phoenix tier.
+plan_count: 5
+plans:
+- name: Pay as you go
+  price_text: Custom
+  period: none
+  included_quota: Public Report Generation, Company Discovery, AI Diligence (pay per deal), Basic analytics
+- name: Scout
+  price_text: Custom
+  period: none
+  included_quota: 5 Public Reports / mo, 10 Discovered Companies / mo, 2 AI Diligence deals / mo
+- name: Hawk
+  price_text: Custom
+  period: none
+  included_quota: 20 Public Reports / mo, 50 Discovered Companies / mo, 5 AI Diligence deals / mo
+- name: Eagle
+  price_text: Custom
+  period: none
+  included_quota: 50 Public Reports / mo, 200 Discovered Companies / mo, 20 AI Diligence deals / mo
+- name: Phoenix
+  price_text: Custom
+  period: none
+  included_quota: Unlimited reports and discovery, Unlimited AI Diligence, On-premise deployment
+rate_limit_statements:
+- 5 Public Reports / mo
+- 10 Discovered Companies / mo
+- 2 AI Diligence deals / mo
+- 20 Public Reports / mo
+- 50 Discovered Companies / mo
+- 5 AI Diligence deals / mo
+- 50 Public Reports / mo
+- 200 Discovered Companies / mo
+- 20 AI Diligence deals / mo
