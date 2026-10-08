@@ -51,3 +51,44 @@ rate_limit_statements:
 - 50 Public Reports / mo
 - 200 Discovered Companies / mo
 - 20 AI Diligence deals / mo
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Pay as you go
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Scout
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Hawk
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Eagle
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Phoenix
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
